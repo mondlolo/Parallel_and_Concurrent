@@ -60,9 +60,9 @@ public class ThreadSimulationLoop extends java.lang.Thread{
 
 			//tick();
 			nextYear(); //calls nextYear() method to calculate new sun values for a new year which then grows all the trees
-			//System.out.println(tock());
 
-			//update year counter text field
+
+			//update year counter text field in the GUI
 			TreeGrow.yearLabel.setText("year "+year);
 
 			//check buttons
