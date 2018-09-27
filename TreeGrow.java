@@ -53,9 +53,12 @@ public class TreeGrow {
 
 	    JPanel buttons = new JPanel();
 	    buttons.setLayout(new FlowLayout());
+
+
 	    // add year label
 	    yearLabel = new JLabel();
 	    buttons.add(yearLabel);
+
 
 
 			//add Play button
